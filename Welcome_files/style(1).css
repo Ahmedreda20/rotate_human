@@ -1,0 +1,138 @@
+div{float:left; width:100%;}
+img.soft{transition-duration:5s;transition-duration:1000ms;transition-duration:500ms, 500ms; width:100%;}
+img.soft:hover{-webkit-filter:brightness(0.5) grayscale(10) opacity(10);-moz-filter:brightness(0.5) grayscale(10) opacity(10);filter:brightness(0.5) grayscale(10) opacity(10);}
+.shadow_one{box-shadow:0 0 20px rgba(65,56,59,0.2);}
+.radius_10{-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px; overflow:hidden;} 
+.z-10{top:0; left:0; position:relative; z-index:10;}
+.z-20{top:0; left:0; position:relative; z-index:20;}
+
+/*** COMMON 
+.sidebar_two .text_holder,
+.sidebar_three .user_details .user_text,
+.soldier_details_one .two,
+.soldier_details_two .text_holder{background:#000;}
+***/
+
+.sidebar_two .img_holder,
+.soldier_details_one .one .img_holder,
+.soldier_details_one .two .number,
+.soldier_details_two .circle,
+.soldier_details_three .circle{-moz-border-radius:100px;-webkit-border-radius:100px;border-radius:100px;overflow:hidden;}
+
+.soldier_details_one, .soldier_details_two ul li,
+.soldier_details_three{box-shadow:0 0 50px rgba(73,195,230,0.2);}
+
+.soldier_details_one .three .progress_bar,.soldier_details_one .three .progress_bar span,
+.soldier_details_three .progress_bar, .soldier_details_three .progress_bar span{background:#0a2036;-moz-border-radius:20px;-webkit-border-radius:20px;border-radius:20px;}
+
+/*** MAIN SIDEBAR ****/
+.sidebar_container{width:300px; background:#000a14; position:absolute; height:100%; min-height:100%;font-family:'heebolight';}
+.sidebar_container .logo{height:50px; padding:30px 0 0 0;}
+.sidebar_container .logo img{width:175px; margin:0 auto;}
+.sidebar_one h2{font-size:15px; color:#4096b4; padding:10px 0 10px 10%; width:90%;}
+.sidebar_two ul li{border-bottom:2px solid #000d1b; float:left; height:75px; padding:15px 5% 0 5%; width:90%;}
+.sidebar_two .img_holder{width:60px; background:#fff;}
+.sidebar_two .text_holder{width:55%; padding:15px 0 0 5%; font-size:16px; color:#fff; line-height:16px;transition-duration:5s;transition-duration:1000ms;transition-duration:500ms, 500ms;}
+.sidebar_two .arrow{width:40px; float:right; padding:18px 0 0 0;}
+.sidebar_two .arrow img{width:25px; float:right;}
+.sidebar_two ul li a, .sidebar_three .user_details a{color:#fff;}
+.sidebar_two ul li:hover  .img_holder img{-webkit-filter:brightness(0.5) grayscale(10) opacity(10);-moz-filter:brightness(0.5) grayscale(10) opacity(10);filter:brightness(0.5) grayscale(10) opacity(10);}
+.sidebar_two ul li:hover .text_holder, .sidebar_three .user_details:hover a{color:#4096b4;}
+.sidebar_two ul li:hover .arrow img, .sidebar_three .user_details:hover .img_holder img{padding:0 15px 0 0;-webkit-filter:brightness(0.5) grayscale(10) opacity(10);-moz-filter:brightness(0.5) grayscale(10) opacity(10);filter:brightness(0.5) grayscale(10) opacity(10);}
+
+.sidebar_three{position:absolute; bottom:0; left:0;}
+.sidebar_three .text_holder{width:90%; padding:0 0 10px 10%; font-size:13px; color:rgba(255,255,255,0.5); border-bottom:1px solid #000d1b;}
+.sidebar_three .user_details{width:90%; padding:20px 0 20px 10%;}
+.sidebar_three .user_details .img_holder{width:40px; float:left;}
+.sidebar_three .user_details .user_text{width:80%; float:right; font-family:16px; line-height:16px; padding:3px 0 0 0;}
+.sidebar_three .user_details .user_text span{font-family:'heeboregular';}
+
+.right_container{width:78%; float:right;}
+.human_body{width:485px; float:left; padding:25px 0 0 5%;}
+
+.soldier_details{width:680px; float:right; padding:80px 0 0 0;}
+
+.soldier_details_one{width:94%; padding:15px 3%; background:#001427; -moz-border-radius:50px 50px 0 0;-webkit-border-radius:50px 50px 0 0;border-radius:50px 50px 0 0; margin-bottom:10px;}
+.soldier_details_one .one{width:50%; border-right:1px solid #142d43;}
+.soldier_details_one .one .img_holder{width:80px; overflow:hidden; background:#fff;}
+.soldier_details_one .one .text_holder{width:63%; padding:0 3%; font-size:15px;}
+.soldier_details_one .one .text_holder h3{font-size:18px;}
+.soldier_details_one .one .text_holder h3 span{font-family:'heebomedium';}
+.soldier_details_one .one .text_holder h4{font-size:15px;font-family:'heeboregular'; padding:4px 0;}
+.soldier_details_one .one .text_holder ul li{width:50%; color:#1bd454;}
+.soldier_details_one .one .text_holder ul li:last-child{text-align:right;}
+.soldier_details_one .two{width:45%; float:right; padding:7px 3% 0 0;color:#4096b4; }
+.soldier_details_one .two .number{width:65px; height:65px; line-height:65px; background:#001d36; font-size:45px; text-align:center;}
+.soldier_details_one .two .text_holder{width:72%; float:right; font-size:18px; padding:10px 0 0 0;}
+.soldier_details_one .three{width:100%; padding:10px 0;border-top:1px solid #051e35; margin-top:12px; font-size:17px; color:#4096b4;}
+.soldier_details_one .three ul li{width:100%; float:left; padding-bottom:20px;}
+.soldier_details_one .three ul li:last-child{padding:0;}
+.soldier_details_one .three .text_holder{width:20px; float:left; text-transform:uppercase; line-height:17px;}
+.soldier_details_one .three .progress_bar, .soldier_details_three .progress_bar{width:96%; float:right; height:17px; overflow:hidden;}
+.soldier_details_one .three .progress_bar span, .soldier_details_three .progress_bar span{display:block; float:left;height:17px; overflow:hidden;}
+.soldier_details_one .three .progress_bar span.size_60{width:60%;}
+.soldier_details_one .three .progress_bar span.size_85{width:85%;}
+.soldier_details_one .three .progress_bar span.size_70{width:70%;}
+.soldier_details_one .three .progress_bar span.size_95{width:95%;}
+.soldier_details_one .three .progress_bar span.green{background:-webkit-linear-gradient(to right, #1bd454, #0a1b2d); /* For Safari 5.1 to 6.0 */
+                          background:-o-linear-gradient(to right, #1bd454, #0a1b2d); /* For Opera 11.1 to 12.0 */
+                          background:-moz-linear-gradient(to right, #1bd454, #0a1b2d); /* For Firefox 3.6 to 15 */
+                          background:linear-gradient(to right, #1bd454, #0a1b2d); /* Standard syntax */}
+                          
+.soldier_details_one .three .progress_bar span.orange{background:-webkit-linear-gradient(to right, #cf6b18, #0a1b2d); /* For Safari 5.1 to 6.0 */
+                          background:-o-linear-gradient(to right, #cf6b18, #0a1b2d); /* For Opera 11.1 to 12.0 */
+                          background:-moz-linear-gradient(to right, #cf6b18, #0a1b2d); /* For Firefox 3.6 to 15 */
+                          background:linear-gradient(to right, #cf6b18, #0a1b2d); /* Standard syntax */}
+                          
+.soldier_details_one .three .progress_bar span.yellow{background:-webkit-linear-gradient(to right, #d3c81b, #0a1b2d); /* For Safari 5.1 to 6.0 */
+                          background:-o-linear-gradient(to right, #d3c81b, #0a1b2d); /* For Opera 11.1 to 12.0 */
+                          background:-moz-linear-gradient(to right, #d3c81b, #0a1b2d); /* For Firefox 3.6 to 15 */
+                          background:linear-gradient(to right, #d3c81b, #0a1b2d); /* Standard syntax */}
+                          
+.soldier_details_one .three .progress_bar span.red{background:-webkit-linear-gradient(to right, #cd1919, #0a1b2d); /* For Safari 5.1 to 6.0 */
+                          background:-o-linear-gradient(to right, #cd1919, #0a1b2d); /* For Opera 11.1 to 12.0 */
+                          background:-moz-linear-gradient(to right, #cd1919, #0a1b2d); /* For Firefox 3.6 to 15 */
+                          background:linear-gradient(to right, #cd1919, #0a1b2d); /* Standard syntax */}
+                          
+.soldier_details_two{width:100%; margin-bottom:10px;}
+.soldier_details_two ul li{width:43.2%;background:#001427; padding:20px 3%;color:#1bd454;}
+.soldier_details_two ul li:last-child{float:right;color:#ff8213;}
+.soldier_details_two .circle, .soldier_details_three .circle{width:100px; height:100px; text-align:center; font-size:14px; background:#001a31}
+.soldier_details_two .circle{line-height:105px;}
+.soldier_details_two .text_holder{width:60%; float:right; font-size:22px; padding-top:30px; line-height:46px;}
+.soldier_details_two .text_holder img, .soldier_details_three .img_holder{width:38px; float:left; padding:0 10px;}
+
+.soldier_details_three ul li{width:94%; margin-bottom:10px; padding:20px 3%; background:#001224;}
+.soldier_details_three ul li:last-child{margin:0;}
+.soldier_details_three .circle{color:#e92929; line-height:normal; height:75px; padding:25px 0 0 0;}
+.soldier_details_three .circle span{font-size:30px; line-height:30px;}
+.soldier_details_three .main_content{width:82%; float:right; padding:25px 0 0 0;}
+.soldier_details_three .main_content .progress_bar{margin-top:20px; width:88%;}
+.soldier_details_three .main_content .progress_bar span.size_95{width:95%;}
+.soldier_details_three .main_content .progress_bar span.red{background:-webkit-linear-gradient(to right, #cd1919, #0a1b2d); /* For Safari 5.1 to 6.0 */
+                          background:-o-linear-gradient(to right, #cd1919, #0a1b2d); /* For Opera 11.1 to 12.0 */
+                          background:-moz-linear-gradient(to right, #cd1919, #0a1b2d); /* For Firefox 3.6 to 15 */
+                          background:linear-gradient(to right, #cd1919, #0a1b2d); /* Standard syntax */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
